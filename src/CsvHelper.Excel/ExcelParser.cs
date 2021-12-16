@@ -123,7 +123,7 @@ namespace CsvHelper.Excel
             }
 
             Context = new CsvContext(this);
-            _leaveOpen = Configuration.LeaveOpen;
+            //_leaveOpen = Configuration.LeaveOpen;
         }
 
 
